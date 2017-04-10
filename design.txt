@@ -1,0 +1,19 @@
+Day 1:
+********************************************************************************
+1) Read the data generated from the simulator.
+
+Preprocessing
+1) Scale it down to manageable resolution
+2) Remove areas of the image we are not interested in
+3) Store the preprocessed images in the same place
+
+Implement a simple network in Keras
+1) Create a model
+
+Run the (horrible) model on the simulator
+
+********************************************************************************
+
+Day 2:
+1) Improve the data
+2) Improve the model
