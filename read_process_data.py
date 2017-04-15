@@ -13,7 +13,7 @@ measurements=[]
 index=-1
 for line in lines:
   #Ignore first row which contains labels
-  if(index>240):
+  if(index>24000):
     break
   if(index == -1):
     index=0
