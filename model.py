@@ -2,7 +2,7 @@ import csv
 import cv2
 import numpy as np
 import sklearn
-from model import nvidia_model
+from network import nvidia_model
 
 from sklearn.model_selection import train_test_split
 from keras.models import Sequential

@@ -21,6 +21,7 @@ def nvidia_model(row,col,ch):
   model.add(Dense(50))
   model.add(Dense(10))
   model.add(Dense(1))
+  model.summary()
 
   return model
 
