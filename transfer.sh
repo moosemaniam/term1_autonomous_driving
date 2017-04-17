@@ -1,5 +1,5 @@
-mkdir to_aws
-cp -r data to_aws/.
+mkdir -p to_aws
+rm -r to_aws/*
+cp  data.tar.gz to_aws/.
 cp -r *.py to_aws/.
-tar -zcvf to_aws.tar.gz to_aws
-scp to_aws.tar.gz carnd@$1:.
+scp -r to_aws carnd@$1:.
