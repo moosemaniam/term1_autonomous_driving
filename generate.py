@@ -16,7 +16,7 @@ def generator(samples, batch_size=BATCH_SIZE):
         images = []
         angles = []
         batch_size_filled=0
-        correction=0.3
+        correction=0.25
         #Loop till we have batch size
         while (batch_size_filled < batch_size):
           #pick a random sample
